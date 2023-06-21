@@ -1,0 +1,15 @@
+## Pseudo code for auto git push
+
+### First identify if you are in a repository
+
+# if current directory has ".git" folder; then 
+#get the status of git 
+#track the files that are updated/created
+#commit your tracked files with a message
+#push them to github (SCM) 
+#else 
+#ask for the repo name & search the system for the directory 
+#if result is found; then
+#go inside the directory
+#else 
+#notify the user the repo doesnt exist
